@@ -107,10 +107,9 @@ h6 {
   padding: 0;
 }
 
-.masthead h3 {
-  
+.masthead h3 { 
   color: white;
-  }
+}
 
 @media (min-width: 992px) {
   .masthead {
@@ -236,6 +235,10 @@ h6 {
   font-weight: 700;
   display: block;
   max-width: 30rem;
+}
+
+#PhotoSlider {
+  background-color: black
 }
 
 .portfolio-item {
