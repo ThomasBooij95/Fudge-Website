@@ -102,22 +102,29 @@ h1.logoFont {
         font-size: 250px;
 }
 
-h1#masthead-logo{
-   font-size: 350px;
+/*h1#masthead-logo{
+   font-size: 1.4em;
    color:white;
-}
+}*/
 
 .logoFont {
     /*font-family: 'Baloo Bhai', cursive;*/
     font-family: 'la_chatte__mamanregular';
-    font-size: 400px;
+   /* font-size: 400px;*/
     font-weight: 500;
     padding-top:0;
     margin-top:0;
     margin-bottom: 0;
   }
 
+img {
+    width: 100%;
+}
 
+.flipHorizontal{
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
 .masthead {
   min-height: 30rem;
   position: relative;
@@ -133,11 +140,19 @@ h1#masthead-logo{
   background-size: cover;
 }
 
-.masthead h1 {
-  font-size: 4rem;
+.carousel-inner > .item {
+   height: 400px;
+}
+.masthead div h1 {
+  font-size: 20em;
   color: white;
   margin: 0;
   padding: 0;
+}
+
+.masthead div h3 {
+  font-size: 3em;
+  color: black;
 }
 
 
