@@ -117,8 +117,12 @@ h1.logoFont {
     margin-bottom: 0;
   }
 
-  #logo{
+  #logoDesktop{
     font-size:25vw
+  }
+
+  #logoMobile{
+    font-size:45vw
   }
 
 img {
