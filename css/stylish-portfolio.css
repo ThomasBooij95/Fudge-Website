@@ -99,7 +99,7 @@ h6 {
 
 
 h1.logoFont {
-        font-size: 250px;
+        font-size: 100px;
 }
 
 /*h1#masthead-logo{
@@ -110,11 +110,19 @@ h1.logoFont {
 .logoFont {
     /*font-family: 'Baloo Bhai', cursive;*/
     font-family: 'la_chatte__mamanregular';
-   /* font-size: 400px;*/
+    /*font-size: 100px;*/
     font-weight: 500;
     padding-top:0;
     margin-top:0;
     margin-bottom: 0;
+  }
+
+  #logoDesktop{
+    font-size:25vw
+  }
+
+  #logoMobile{
+    font-size:45vw
   }
 
 img {
